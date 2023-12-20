@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Hello darkness</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Jolly+Lodger&family=Nosifer&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+    <main class="main-section">
+        <div class="text-container">
+            <h2>
+                <span>Never turn off the</span>
+                <span class="light">light</span>
+            </h2>
+        </div>
+
+        <div class="panel">
+            <input id="switch" checked="checked" type="checkbox" />
+            <label for="switch"></label>
+            <div id="overlay" class="overlay"></div>
+        </div>
+
+        <video id="scary-video" style="display: none" autoplay>
+            <source src="./assets/video/dark-side.mov" type="video/mp4" />
+            Your browser does not support the video tag.
+        </video>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
